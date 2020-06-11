@@ -1,0 +1,41 @@
+{
+  "name": "ostdotcom/ost-sdk-php",
+  "homepage": "https://platform.ost.com/",
+  "description": "OST Platform SDK for PHP",
+  "keywords": ["OST","Simple Token","SDK","PHP"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "OST.com Inc."
+    }
+  ],
+  "support": {
+    "wiki": "https://dev.ost.com/",
+    "forum": "https://help.ost.com/",
+    "issues": "https://github.com/ostdotcom/ost-sdk-php/issues"
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "vlucas/phpdotenv": "v2.4.0",
+    "phpunit/phpunit": "^4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lib\\": "src/Lib/",
+      "OST\\": "src/Services/",
+      "": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Lib\\": "tests/Lib/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
