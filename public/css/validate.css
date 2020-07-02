@@ -1,0 +1,13 @@
+.valid:focus{
+    outline: none !important;
+
+    border: 2px solid limegreen;
+    border-radius: 4px;
+
+}
+.invalid:focus {
+    outline: none !important;
+
+    border: 2px solid red;
+    border-radius: 4px;
+}
